@@ -1,0 +1,33 @@
+#search-box {
+  width: 1000px;                  /* Ancho completo */
+  height: 70px;                 /* Altura similar a una barra de navegación */
+  background-color: #fff;       /* Fondo negro */
+  display: flex;                /* Flexbox para alinear elementos */
+  align-items: center;          /* Centra verticalmente */
+  padding: 0 20px;              /* Espaciado interno horizontal */
+}
+
+#search-box h5 {
+  color: #000;               /* Color blanco para el texto */
+  font-size: 18px;              /* Tamaño del texto */
+}
+
+#search-box input {
+  flex: 1;                      /* Ocupa todo el espacio disponible */
+  margin-left: 15px;            /* Margen izquierdo entre el texto y el input */
+  height: 40px;                 /* Altura del input */
+  padding: 0 15px;              /* Espaciado interno */
+                 /* Sin borde */
+  border-radius: 15px;           /* Bordes ligeramente redondeados */
+  background-color: #FFF;    /* Fondo oscuro del input */
+  color: #000;               /* Texto blanco */
+}
+
+#search-box input::placeholder {
+  color: #adb5bd;               /* Color del texto placeholder */
+}
+
+#search-box input:focus {
+  outline: none;                /* Elimina el borde al hacer clic */
+  background-color: #FFF;    /* Cambia el color del fondo al enfocar */
+}
